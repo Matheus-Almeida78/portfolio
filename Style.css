@@ -203,6 +203,21 @@ section div button:active {
     padding: 91px;
 }
 
+.link-projeto {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #da0e0e;
+    border-radius: 50px;
+    padding: 5px 19px;
+    background-color: #da0e0e;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.link-projeto:hover{
+    background-color: transparent;
+    transition: 0.5;
+}
 
 footer {
     background-color: #000000;
