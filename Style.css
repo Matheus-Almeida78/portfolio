@@ -239,11 +239,16 @@ footer h5 {
     font-size: 30px;
 }
 
+footer h5 span {
+    color: #f9004d;
+}
+
 footer p {
     color: white;
     font-size: 18px;
     margin: 15px 0px;
 }
+
 
 .social {
     display: flex;
