@@ -7,18 +7,20 @@
 .inicio{
     background-color: #191919;
 }
-.inicio p{
-    color: #191919;
-    display: none;
-}
 
 .caixa-principal {
     height: 100vh;
     width: 100%;
-    background-image: url(./img/background.png);
     background-color: #191919;
     background-size: cover;
     background-position: center;
+}
+
+.caixa-principal img {
+    width: 900px;
+    margin-left: 500px;
+    height: 800px;
+    position: absolute;
 }
 
 nav {
@@ -275,4 +277,102 @@ footer p {
 .social a:hover{
     transform: scale(1.3);
     transition: 0.5;
+}
+
+@media screen and (max-width:900px)  {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .caixa-principal{
+        width: 100%;
+        height: 65vh;
+        
+    }
+
+    .caixa-principal img {
+        height: 400px;
+        margin-left: 0;
+        right: 100px;
+        top: 80px;
+        position: absolute;
+        width: 400px;
+    }
+
+    nav ul {
+        position: absolute;
+        display: block;
+        height: 140px;
+        width: 100%;
+    }
+
+    nav h2 {
+        height: 100px;
+        margin-top: 50px;
+        padding-left: 90px;
+    }
+
+    nav li {
+        font-size: 15px
+    }
+
+    .meu-nome h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    section {
+        height: 70vh;
+        width: 100%;
+        display: block;
+        background-color: black;
+        padding-top:65px ;
+    }
+    
+    #caixa-sobre-min{
+        margin-left: -165px;
+    }
+
+    section img {
+        height: 200px;
+        width: 200px;
+        margin-bottom:600px;
+        margin-left: -93px;
+    }
+
+    section div p {
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+        font-size: 19px;
+    }
+    
+    section div h2 {
+        display: block;
+        font-size: 39px;
+        position: static;
+        margin: -574px 0px 0px 0px;
+    }
+
+    section div button {
+        background-color: #f1000e;
+        cursor: pointer;
+        width: 133px;
+        border-radius: 29px;
+        height: 38px;
+        color: white;
+        margin-left: 100px ;
+        border: none;
+    }
+    
+    section div button:active {
+        display:none;
+        transition: 0.1ms;
+
+    }
+
 }
