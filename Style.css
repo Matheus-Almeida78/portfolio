@@ -174,14 +174,7 @@ section div button:active {
     color: white;
 }
 
-.card button {
-    background-color: #da0e0e;
-    color: white;
-    width: 121px;
-    height: 31px;
-    border-radius: 50px;
-    cursor: pointer;
-}
+
 
 .card button:hover {
     background-color: transparent;
@@ -302,6 +295,10 @@ footer p {
         width: 400px;
     }
 
+    nav{
+        position: static;
+    }
+
     nav ul {
         position: absolute;
         display: block;
@@ -375,4 +372,64 @@ footer p {
 
     }
 
+    .card {
+        margin-right: 5px;
+        background-color: black;
+        height: 257px;
+        width: 199px;
+        border-radius: 20px;
+        padding: 20px 0px;
+        text-align: center;
+    
+    }
+
+    .card img {
+        height: 50px;
+    }
+    
+    .card p {
+        width: 118px;
+        margin: 15px 0px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .card h5 {
+        color: #E50914;
+        font-size: 15px;
+    }
+
+    .card h4 {
+        font-size: 15px;
+        color: #07f900;
+    }
+
+    .card h6 {
+        color:  #e35353;
+        font-size: 15px;
+    }
+
+    .card-principal {
+        display: flex;
+        justify-content: space-around;
+        padding: 45px;
+    }
+
+    .projetos h2 {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding: 29px 0px 0px 0px;
+    }
+
+    .link-projeto {
+        color: white;
+        text-decoration: none;
+        border: 2px solid #da0e0e;
+        border-radius: 50px;
+        padding: 5px 12px;
+        background-color: #da0e0e;
+        font-size: 9px;
+        cursor: pointer;
+    }
 }
