@@ -388,10 +388,10 @@ footer p {
     }
     
     .card p {
-        width: 118px;
+        width: 100px;
         margin: 15px 0px;
         color: white;
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .card h5 {
