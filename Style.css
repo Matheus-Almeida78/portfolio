@@ -253,18 +253,6 @@ section div button:active {
     }
 }
 
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
-}
 .card img {
     height: 100px;
 }
