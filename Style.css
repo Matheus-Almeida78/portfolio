@@ -42,6 +42,7 @@ nav {
     font-size: 35px;
     font-weight: 400;
     padding: 25px 0px 0px 35px;
+    z-index: 1;
 }
 
 .portfolio span {
@@ -295,7 +296,15 @@ section div button:active {
 .starbucks {
     border-radius: 100%;
 }
+.tempo {
+    border-radius: 100%;
+    width: 66%;
+}
 
+.card h3 {
+    font-size: 25px;
+    color: #a4a3a8;
+}
 .card h4 {
     font-size: 25px;
     color: #07f900;
@@ -306,10 +315,15 @@ section div button:active {
     font-size: 25px;
 }
 
+.card h7 {
+    color:#3498db;
+    font-size: 25px;
+}
+
 .card-principal {
     display: flex;
     justify-content: space-around;
-    padding: 91px;
+    padding: 20px;
 }
 
 .link-projeto {
@@ -409,7 +423,6 @@ footer p {
         font-size: 35px;
         font-weight: 400;
         padding: 91px 0px 0px 133px;
-        
     }
 
     nav {
