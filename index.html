@@ -30,7 +30,7 @@
         <img src="./img/background.png" class="img-background">
 
         <div class="meu-nome">
-            <h1>Matheus <span>Scott</span></h1>
+            <h1>Matheus Scott</h1>
             <h3>Programador Front End</h3>
         </div>
     </div>
@@ -104,5 +104,17 @@
     </footer>
 
 </body>
-<script  src="./script"></script>
+<script>
+    function typeWriter(element){
+    const textoArray = element.innerHTML.split('');
+    element.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+        setTimeout(() =>  element.innerHTML += letra, 500 * i)
+    });
+}
+
+const titulo = document.querySelector('h1');
+typeWriter(titulo);
+
+</script>
 </html>
